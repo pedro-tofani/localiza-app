@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import Content from './components/Content';
@@ -9,15 +9,15 @@ import AboutTrybe from './components/AboutTrybe';
 
 function App() {
   return (
-  <Router>
-    <Header />
-    <Switch>
-    <Route exact path="/" component={Content} />
-    <Route exact path="/CarClass/:idClasse" component={CarClass} />
-    <Route exact path="/localiza" component={AboutLocaliza} />
-    <Route exact path="/trybe" component={AboutTrybe} />
-    </Switch>
-  </Router>
+    <HashRouter basename='/localiza-app/'>
+      <Header />
+      <Switch>
+        <Route exact path="/" component={Content} />
+        <Route exact path="/CarClass/:idClasse" component={CarClass} />
+        <Route exact path="/localiza" component={AboutLocaliza} />
+        <Route exact path="/trybe" component={AboutTrybe} />
+      </Switch>
+    </HashRouter>
   );
 }
 
