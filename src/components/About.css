@@ -1,0 +1,13 @@
+.container-about {
+  border: 3px solid #00984a;
+  margin: 15px;
+  padding: 15px;
+}
+
+.container-about li {
+  list-style-type: square;
+}
+
+.container-about img {
+  margin: 0px;
+}

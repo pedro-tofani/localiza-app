@@ -1,0 +1,30 @@
+.card-car {
+  align-items: center;
+  border: 3px solid #00984a;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 25%;
+}
+
+.img-carro {
+  margin: 0 5px 0 5px;
+  height: 100px;
+}
+
+.cars-available {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #00984a;
+  border: 5px solid black;
+  color: white;
+  margin: 10px;
+  width: 95%;
+}
+
+.borda {
+  margin: 25px;
+}

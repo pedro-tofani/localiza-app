@@ -1,0 +1,57 @@
+.link-carro {
+  color: black;
+}
+
+.link-carro:hover {
+  text-decoration: underline;
+}
+
+.container-car-card {
+  border: #00984a 3px solid;
+  display: flex;
+  margin: 2px;
+  padding: 10px;
+  width: 80%;
+}
+
+.container-details-row {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.container-details {
+  align-items: center;
+  border: 1px solid #00984a;
+  display: flex;
+  font-size: small;
+  height: 40px;
+  margin: 5px;
+  width: 45%;
+}
+
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 98%;
+}
+
+img {
+  margin: 0 70px 0 50px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+}
+
+.icon {
+  margin: 0 3px 0 3px;
+}
+
+.container-infos {
+  display: flex;
+  flex-wrap: wrap;
+}

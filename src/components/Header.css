@@ -1,0 +1,21 @@
+.header-content {
+  align-items: center;
+  background-color: #00984a;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%
+}
